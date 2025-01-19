@@ -23,7 +23,7 @@ const Features = () => {
                 </p>
               </div>
             </div>
-            <div className="w-full h-40 shadow-inner shadow-[#396f77]  bg-[#08252A] border border-[#0F373D] rounded-md"></div>
+            <div className="w-full h-40 shadow-inner shadow-[#396f77]  bg-[#08252A] border-2 border-[#0E5664] rounded-md"></div>
           </div>
           <FeatureDescription
             unistyle={["text-center w-max rounded-tr-3xl pb-8"]}
