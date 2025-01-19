@@ -1,6 +1,7 @@
 import About from "@/components/About";
 import Features from "@/components/Features";
 import HomeBG from "@/components/HomeBG";
+import Tokenomics from "@/components/Tokenomics";
 
 export default function Home() {
   return (
@@ -8,6 +9,7 @@ export default function Home() {
       <HomeBG />
       <Features />
       <About />
+      <Tokenomics />
     </>
   );
 }
