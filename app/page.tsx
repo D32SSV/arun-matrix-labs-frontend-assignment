@@ -1,4 +1,5 @@
 import About from "@/components/About";
+import Faq from "@/components/FAQ";
 import Features from "@/components/Features";
 import HomeBG from "@/components/HomeBG";
 import RoadMap from "@/components/RoadMap";
@@ -12,6 +13,7 @@ export default function Home() {
       <About />
       <Tokenomics />
       <RoadMap />
+      <Faq />
     </>
   );
 }
