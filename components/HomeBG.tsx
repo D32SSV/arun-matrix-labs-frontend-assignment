@@ -1,5 +1,6 @@
 import React from "react";
 import Navbar from "./Navbar";
+import CB2 from "./reusable/CB2";
 // import bg from "../../assets/bg/bg.mp4";
 
 const HomeBG: React.FC = () => {
@@ -24,10 +25,10 @@ const HomeBG: React.FC = () => {
             Investment
           </span>
         </p>
-        <p className="text-[#B0FAFFB2] text-3xl text-center pt-16">
+        <p className="text-[#B0FAFFB2] text-3xl text-center pt-16 mb-16 ">
           Empowering Trading Through Advanced Technology{" "}
         </p>
-        <button className="mt-16 px-6 py-2 rounded-xl shadow-inner shadow-[#8BF9E833] border-[#8BF9E833] border text-center text-lg">Open dApp</button>
+        <CB2 title={"Open dApp"} />
       </div>
     </div>
   );
